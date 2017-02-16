@@ -168,8 +168,6 @@ module.exports = {
             'global',
         ],
 
-        'no-var': 0,
-
     },
 };
 
