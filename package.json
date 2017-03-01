@@ -4,7 +4,9 @@
   "description": "eslint config for IBI Data",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "push-all": "git push -u origin master && git push -u production master && npm publish",
+    "push-wifi": "git push -u github master"
   },
   "author": "IBI Data <admin@ibidata.com>",
   "license": "ISC",

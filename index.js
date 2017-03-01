@@ -64,6 +64,9 @@ module.exports = {
         indent: [
             'error',
             4,
+            {
+                SwitchCase: 1,
+            },
         ],
 
         // prevent LF vs CRLF errors
