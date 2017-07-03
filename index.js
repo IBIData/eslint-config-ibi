@@ -15,6 +15,9 @@ module.exports = {
 
     globals: {
         main: true,
+        $: true,
+        jQuery: true,
+        swal: true,
     },
 
     parserOptions: {
@@ -59,6 +62,15 @@ module.exports = {
 
         // for in loops do not need to be wrapped in an if statement to protect from type
         'guard-for-in': 0,
+
+        'import/no-unresolved': [
+            2,
+            {
+                ignore: [
+                    'bootstrap$',
+                ],
+            },
+        ],
 
         // override airbnb and make sure spaces are 4 spaces instead of tabs
         indent: [
