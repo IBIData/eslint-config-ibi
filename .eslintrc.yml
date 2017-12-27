@@ -58,7 +58,7 @@ rules:
   import/no-unresolved:
     - 2
     - ignore
-        - 'bootstrap$'
+      - 'bootstrap$'
 
   # make sure spaces are 4 instead of tabs
   indent:
