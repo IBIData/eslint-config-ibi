@@ -99,6 +99,9 @@ module.exports = {
         // allow !!
         'no-extra-boolean-cast': 0,
 
+        // allow 'for' loop and switch statement labels
+        'no-labels': 0,
+
         // allow consecutive operators without parentheses
         'no-mixed-operators': 0,
 
