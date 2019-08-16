@@ -63,6 +63,8 @@ module.exports = {
         // for in loops do not need to be wrapped in an if statement to protect from type
         'guard-for-in': 0,
 
+        'import/no-extraneous-dependencies': 0,
+
         'import/no-unresolved': [
             2,
             {
@@ -176,9 +178,6 @@ module.exports = {
             'error',
             'as-needed',
         ],
-
-        // do not enforece a space after a '//' comment
-        'spaced-comment': 0,
 
         // we need to have 'use strict' right now until we get our new webserver setup
         strict: [

@@ -9,6 +9,7 @@ plugins:
 env:
   es6: true
   browser: true
+  commonjs: true
   node: true
   jquery: true
 
@@ -19,7 +20,7 @@ globals:
   swal: true
 
 parserOptions:
-  ecmaVersion: 6
+  ecmaVersion: 8
 
 rules:
 
@@ -54,6 +55,8 @@ rules:
 
   # For in loops do not need to be wrapped in an if statment to protect from type
   guard-for-in: 0
+
+  import/no-extraneous-dependencies: 0
 
   import/no-unresolved:
     - 2
@@ -150,9 +153,6 @@ rules:
   radix:
     - error
     - as-needed
-
-  # do not enforce a space after a '//' comment
-  spaced-comment: 0
 
   # we need to have 'use strict' right now until we get our new web server set up
   strict:
