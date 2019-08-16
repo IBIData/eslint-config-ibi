@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "push-all": "git push -u origin master && git push -u production master && git push -u github master",
-    "bump-patch": "npm version patch && git push origin master && git push origin --tags && git push github master && git push github --tags",
-    "bump-minor": "npm version minor && git push origin master && git push origin --tags && git push github master && git push github --tags",
-    "bump-major": "npm version major && git push origin master && git push origin --tags && git push github master && git push github --tags"
+    "bump-patch": "npm version patch && git push origin master && git push origin --tags && git push github master && git push github --tags && git push production && git push production --tags",
+    "bump-minor": "npm version minor && git push origin master && git push origin --tags && git push github master && git push github --tags && git push production && git push production --tags",
+    "bump-major": "npm version major && git push origin master && git push origin --tags && git push github master && git push github --tags && git push production && git push production --tags"
   },
   "author": "IBI Data <admin@ibidata.com>",
   "license": "ISC",
