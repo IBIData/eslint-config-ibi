@@ -17,7 +17,6 @@ module.exports = {
         main: true,
         $: true,
         jQuery: true,
-        swal: true,
     },
 
     parserOptions: {
